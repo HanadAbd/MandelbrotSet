@@ -1,7 +1,7 @@
 all: compile run_program
 
 compile:
-	gcc main.c -o main
+	gcc -Wall -Wextra main.c -o main -lncurses
 
 run_program:
 	./main
